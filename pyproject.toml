@@ -1,0 +1,28 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "qbert"
+version = "0.1.0"
+description = "Dead simple task queue backed by PostgreSQL"
+authors = ["backwardspy <backwardspy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+piccolo = {extras = ["postgres", "orjson"], version = "^0.74.4"}
+pydantic = "^1.9.1"
+ulid-py = "^1.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.3.0"
+pylint = "^2.13.9"
+mypy = "^0.950"
+ptpython = "^3.0.20"
+isort = "^5.10.1"
+ward = "^0.66.0-beta.0"
+loguru = "^0.6.0"
+
+[tool.pylint.messages_control]
+extension-pkg-whitelist = "pydantic"
