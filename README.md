@@ -1,3 +1,5 @@
+![q*bert sprite](docs/qbert.png)
+
 # qbert
 
 a dead simple task queue backed by postgres
