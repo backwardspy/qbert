@@ -29,11 +29,11 @@ def squash(query: str) -> str:
 
 PULL_QUERY = squash(
     """
-    UPDATE job
+    UPDATE qbert_job
     SET status = {}, updated_at = {}
     WHERE id IN (
         SELECT id
-        FROM job
+        FROM qbert_job
         WHERE status = {}
         AND scheduled_for <= {}
         AND failed_attempts < {}
@@ -47,7 +47,7 @@ PULL_QUERY = squash(
 
 FAIL_JOB_QUERY = squash(
     """
-    UPDATE job
+    UPDATE qbert_job
     SET
         failed_attempts = failed_attempts + 1,
         status = CASE
