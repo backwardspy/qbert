@@ -4,10 +4,11 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "qbert"
-version = "0.1.2"
+version = "0.1.4"
 description = "Dead simple task queue backed by PostgreSQL"
 authors = ["backwardspy <backwardspy@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/backwardspy/qbert"
 
 [tool.poetry.dependencies]
 python = "^3.10"
