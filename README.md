@@ -1,4 +1,4 @@
-![q*bert sprite](docs/qbert.png)
+![q*bert sprite](https://github.com/backwardspy/qbert/blob/master/docs/qbert.png)
 
 # qbert
 
