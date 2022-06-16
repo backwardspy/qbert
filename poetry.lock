@@ -287,7 +287,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [[package]]
 name = "piccolo"
-version = "0.75.0"
+version = "0.77.0"
 description = "A fast, user friendly ORM and query builder which supports asyncio."
 category = "main"
 optional = false
@@ -554,7 +554,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "2e4d0aab0fa4b3d3a280c9b9a90a9a7ca380ff101ebd4aa86c1e5386be2bd31f"
+content-hash = "66d512d96534caa31bc7136d4a89fe17c53177d3053dca6c608aef6886963296"
 
 [metadata.files]
 appdirs = [
@@ -823,8 +823,8 @@ pathspec = [
     {file = "pathspec-0.9.0.tar.gz", hash = "sha256:e564499435a2673d586f6b2130bb5b95f04a3ba06f81b8f895b651a3c76aabb1"},
 ]
 piccolo = [
-    {file = "piccolo-0.75.0-py3-none-any.whl", hash = "sha256:2e03ff599be42d00dd1420a9686e8305ae6fe16b3f78fdebb0a0d2e676fc40e9"},
-    {file = "piccolo-0.75.0.tar.gz", hash = "sha256:51bd0c5b4efd79935697909e1ec826ca55967315abbae7d0b99a4d250af43ef5"},
+    {file = "piccolo-0.77.0-py3-none-any.whl", hash = "sha256:a6e486b349629366221cb23459a209072683de048088163ddf2ecbd214456434"},
+    {file = "piccolo-0.77.0.tar.gz", hash = "sha256:b8b76ee254aeb9a5188e1a4bfc1ad1919433c8b4946d229c2a534e9ac78826ff"},
 ]
 platformdirs = [
     {file = "platformdirs-2.5.2-py3-none-any.whl", hash = "sha256:027d8e83a2d7de06bbac4e5ef7e023c02b863d7ea5d079477e722bb41ab25788"},
