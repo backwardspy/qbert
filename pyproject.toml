@@ -15,7 +15,7 @@ enable = true
 
 [tool.poetry.dependencies]
 python = "^3.10"
-piccolo = {extras = ["orjson", "postgres"], version = "^0.77.0"}
+piccolo = {extras = ["orjson", "postgres"], version = ">=0.74.4"}
 pydantic = "^1.9.1"
 ulid-py = "^1.1.0"
 
